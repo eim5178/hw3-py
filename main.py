@@ -5,7 +5,7 @@
 def run():
   n = int(input("Enter an int: "))
   n_sum = digit_sum(n)
-  print(f"The sum is {n_sum}")
+  print(f"The sum is {n_sum}.")
 
 def digit_sum(n):
   if (n<10):
